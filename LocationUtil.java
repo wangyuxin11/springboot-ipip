@@ -1,4 +1,6 @@
 public class LocationUtil {
+   
+   // http://api.map.baidu.com/location/ip 这个接口，只能获取到当前城市中心的IP，并不是IP真正的位置~！！！
    public static String[] getLocation(String ip) {
       String[] returnString=new String[2];
       try {
